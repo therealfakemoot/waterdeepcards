@@ -3,7 +3,7 @@
     "count": 1,
     "color": "indigo",
     "title": "Cunning Action",
-    "icon": "white-book",
+    "icon": "abstract-003",
     "icon_back": "cloak-dagger",
     "contents": [
       "subtitle | Rogue feature",
@@ -21,7 +21,7 @@
   },
   {
     "count": 1,
-    "color": "#4a6898",
+    "color": "DarkBlue",
     "title": "Disguise Self",
     "icon": "magic-swirl",
     "icon_back": "magic-swirl",
@@ -38,7 +38,6 @@
     ],
     "tags": [
       "spell",
-      "phb",
       "1st level",
       "illusion",
       "innate"
@@ -46,7 +45,7 @@
   },
   {
     "count": 1,
-    "color": "#4a6898",
+    "color": "DarkBlue",
     "title": "Invisibility",
     "icon": "magic-swirl",
     "icon_back": "magic-swirl",
@@ -64,7 +63,6 @@
     ],
     "tags": [
       "spell",
-      "phb",
       "2nd level",
       "illusion",
       "concentration",
@@ -73,7 +71,7 @@
   },
   {
     "count": 1,
-    "color": "#4a6898",
+    "color": "DarkBlue",
     "title": "Mending",
     "icon": "magic-swirl",
     "icon_back": "magic-swirl",
@@ -90,14 +88,13 @@
     ],
     "tags": [
       "spell",
-      "PHB",
       "Cantrips",
       "Transmutation"
     ]
   },
   {
     "count": 1,
-    "color": "#4a6898",
+    "color": "DarkBlue",
     "title": "Minor Illusion",
     "icon": "magic-swirl",
     "icon_back": "magic-swirl",
@@ -116,7 +113,6 @@
     ],
     "tags": [
       "spell",
-      "phb",
       "cantrips",
       "illusion",
       "innate"
@@ -124,7 +120,7 @@
   },
   {
     "count": 1,
-    "color": "#4a6898",
+    "color": "DarkBlue",
     "title": "Prestidigitation",
     "icon": "magic-swirl",
     "icon_back": "magic-swirl",
@@ -143,16 +139,15 @@
     ],
     "tags": [
       "spell",
-      "PHB",
       "Cantrips",
       "Transmutation"
     ]
   },
   {
     "count": 1,
-    "color": "Purple",
+    "color": "indigo",
     "title": "Soul Knife",
-    "icon": "piercing-sword",
+    "icon": "abstract-065",
     "contents": [
       "subtitle | Soul Knife ( 3rd level )",
       "rule",
@@ -211,9 +206,9 @@
   },
   {
     "count": 1,
-    "color": "Purple",
+    "color": "indigo",
     "title": "Psychic Whispers",
-    "icon": "piercing-sword",
+    "icon": "abstract-065",
     "contents": [
       "subtitle | Soul Knife ( 3rd level )",
       "rule",
@@ -232,7 +227,7 @@
   },
   {
     "count": 1,
-    "color": "DarkBlue",
+    "color": "indigo",
     "title": "Expendable Resources",
     "icon": "trade",
     "contents": [
@@ -248,8 +243,7 @@
       "boxes | 1 | 2"
     ],
     "tags": [
-      "feature",
-      "resource"
+      "feature"
     ]
   },
   {
@@ -420,7 +414,7 @@
   },
   {
     "count": 1,
-    "color": "#4a6898",
+    "color": "DarkBlue",
     "title": "Psychometry",
     "icon": "magic-swirl",
     "icon_back": "magic-swirl",
@@ -437,14 +431,13 @@
     ],
     "tags": [
       "spell",
-      "phb",
       "1st level",
       "illusion"
     ]
   },
   {
     "count": 1,
-    "color": "#4a6898",
+    "color": "DarkBlue",
     "title": "Biofeedback",
     "icon": "magic-swirl",
     "icon_back": "magic-swirl",
@@ -460,14 +453,13 @@
     ],
     "tags": [
       "spell",
-      "phb",
       "1st level",
       "illusion"
     ]
   },
   {
     "count": 1,
-    "color": "DarkBlue",
+    "color": "indigo",
     "title": "Expertise",
     "icon": "trade",
     "contents": [
@@ -486,13 +478,12 @@
       "property | Survival | +4"
     ],
     "tags": [
-      "feature",
-      "resource"
+      "feature"
     ]
   },
   {
     "count": 1,
-    "color": "DarkBlue",
+    "color": "indigo",
     "title": "Stats Reference",
     "icon": "trade",
     "contents": [
@@ -509,15 +500,14 @@
       ""
     ],
     "tags": [
-      "feature",
-      "resource"
+      "feature"
     ]
   },
   {
     "count": 1,
-    "color": "#4a6898",
+    "color": "DarkBlue",
     "title": "Mage Hand",
-    "icon": "magic-swirl",
+    "icon": "abstract-003",
     "icon_back": "magic-swirl",
     "contents": [
       "subtitle | Conjuration cantrip",
@@ -532,7 +522,6 @@
     ],
     "tags": [
       "spell",
-      "phb",
       "cantrips",
       "transmutation",
       "trickster"
@@ -540,7 +529,7 @@
   },
   {
     "count": 1,
-    "color": "DarkBlue",
+    "color": "FireBrick",
     "title": "Healer's Kit",
     "icon": "trade",
     "contents": [
@@ -553,14 +542,13 @@
       "boxes | 5 | 3.5"
     ],
     "tags": [
-      "resource",
       "equipment",
       "charges"
     ]
   },
   {
     "count": 1,
-    "color": "DarkBlue",
+    "color": "FireBrick",
     "title": "Caltrops",
     "icon": "trade",
     "contents": [
@@ -572,14 +560,13 @@
       "boxes | 5 | 3.5"
     ],
     "tags": [
-      "resource",
       "equipment",
       "charges"
     ]
   },
   {
     "count": 1,
-    "color": "DarkBlue",
+    "color": "FireBrick",
     "title": "Ball Bearings",
     "icon": "trade",
     "contents": [
@@ -591,14 +578,13 @@
       "boxes | 5 | 3.5"
     ],
     "tags": [
-      "resource",
       "equipment",
       "charges"
     ]
   },
   {
     "count": 1,
-    "color": "DarkBlue",
+    "color": "FireBrick",
     "title": "Alchemist's Fire ( flask )",
     "icon": "trade",
     "contents": [
@@ -610,14 +596,13 @@
       "boxes | 5 | 3.5"
     ],
     "tags": [
-      "resource",
       "equipment",
       "charges"
     ]
   },
   {
     "count": 1,
-    "color": "DarkBlue",
+    "color": "FireBrick",
     "title": "Rope + Grappling Hook",
     "icon": "trade",
     "contents": [
@@ -633,7 +618,6 @@
       "text | Can be attached to the end of a rope allowing it to attach to surfaces and objects."
     ],
     "tags": [
-      "resource",
       "equipment"
     ]
   }
