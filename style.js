@@ -31,3 +31,7 @@ if (card_has_tag(card, "trickster")) {
 if (card_has_tag(card, "equipment")) {
         card.icon = "trade";
 }
+
+if (card_has_tag(card, "reference")) {
+        card.icon = "spell-book";
+}
