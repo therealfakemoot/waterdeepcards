@@ -6,8 +6,6 @@
     "icon": "abstract-003",
     "icon_back": "cloak-dagger",
     "contents": [
-      "subtitle | Rogue feature",
-      "rule",
       "text | You can take a <b>bonus action on each of your turns</b> in combat. This action can be used to:",
       "bullet | <b>Dash</b>",
       "bullet | <b>Disengage</b>",
