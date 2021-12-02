@@ -12,8 +12,15 @@ if (card_has_tag(card, "equipment")) {
 }
 
 // Icons
+if (card_has_tag(card, "monk")) {
+        card.icon = "high-kick";
+}
 
 if (card_has_tag(card, "soul knife")) {
+        card.icon = "abstract-065";
+}
+
+if (card_has_tag(card, "stiletto")) {
         card.icon = "abstract-065";
 }
 
