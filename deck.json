@@ -8,10 +8,13 @@
     "contents": [
       "subtitle | Rogue feature",
       "rule",
-      "text | You can take a <b>bonus action on each of your turns</b> in combat. This action can be used only to take the <b>Dash, Disengage, or Hide</b> action, or to <b>control your Mage Hand</b>.",
-      "",
+      "text | You can take a <b>bonus action on each of your turns</b> in combat. This action can be used to:",
+      "bullet | <b>Dash</b>",
+      "bullet | <b>Disengage</b>",
+      "bullet | <b>Hide</b>",
+      "bullet | <b>Control your Mage Hand</b>",
       "section | Mage Hand Legerdemain",
-      "text | You may use your Mage Hand to perform <b>Sleight of Hand</b> checks opposed by the target's <b>Perception</b>."
+      "text | You may use your Mage Hand to perform <b>Sleight of Hand</b> checks opposed by the target's <b>Perception</b>. You can take from or place objects into containers as well as use <b>Thieve's Tools</b> at range."
     ],
     "tags": [
       "feature",
