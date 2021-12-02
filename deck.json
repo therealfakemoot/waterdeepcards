@@ -38,6 +38,7 @@
     ],
     "tags": [
       "spell",
+      "phb",
       "1st level",
       "illusion",
       "innate"
@@ -63,6 +64,7 @@
     ],
     "tags": [
       "spell",
+      "phb",
       "2nd level",
       "illusion",
       "concentration",
@@ -88,6 +90,7 @@
     ],
     "tags": [
       "spell",
+      "PHB",
       "Cantrips",
       "Transmutation"
     ]
@@ -113,6 +116,7 @@
     ],
     "tags": [
       "spell",
+      "phb",
       "cantrips",
       "illusion",
       "innate"
@@ -139,6 +143,7 @@
     ],
     "tags": [
       "spell",
+      "PHB",
       "Cantrips",
       "Transmutation"
     ]
@@ -168,7 +173,7 @@
     "count": 1,
     "color": "indigo",
     "title": "Ki Burners",
-    "icon": "divided-spiral",
+    "icon": "high-kick",
     "icon_back": "divided-spiral",
     "contents": [
       "subtitle | Monk ( 3rd level )",
@@ -190,7 +195,7 @@
     "count": 1,
     "color": "indigo",
     "title": "Deflect Missiles",
-    "icon": "divided-spiral",
+    "icon": "high-kick",
     "icon_back": "divided-spiral",
     "contents": [
       "subtitle | Monk ( 3rd level )",
@@ -248,144 +253,6 @@
   },
   {
     "count": 1,
-    "color": "#008000",
-    "title": "Bat",
-    "icon": "imp-laugh",
-    "icon_back": "imp-laugh",
-    "contents": [
-      "subtitle | Tiny beast, unaligned",
-      "rule",
-      "property | Armor class | 12",
-      "property | Hit points | 1 (1d4 - 1)",
-      "property | Speed | 5 ft., fly 30 ft.",
-      "rule",
-      "dndstats | 2 | 15 | 8 | 2 | 12 | 4",
-      "rule",
-      "property | Senses | blindsight 60 ft., passive Perception 11",
-      "rule",
-      "description | Echolocation | The bat can't use its blindsight while deafened.",
-      "description | Keen Hearing | Advantage on Wisdom ( Perception) checks that rely on hearing.",
-      "section | Actions",
-      "description | Bite | <i>Melee Weapon Attack:</i> +0 to hit, reach 5 ft., one creature. <i>Hit:</i> 1 piercing damage."
-    ],
-    "tags": [
-      "creature",
-      "MM",
-      "beast",
-      "CR 0",
-      "Tiny"
-    ]
-  },
-  {
-    "count": 1,
-    "color": "#008000",
-    "title": "Crab",
-    "icon": "imp-laugh",
-    "icon_back": "imp-laugh",
-    "contents": [
-      "subtitle | Tiny beast, unaligned",
-      "rule",
-      "property | Armor class | 11 (natural armor)",
-      "property | Hit points | 2 (1d4)",
-      "property | Speed | 20 ft., swim 20 ft.",
-      "rule",
-      "dndstats | 2 | 11 | 10 | 1 | 8 | 2",
-      "rule",
-      "property | Skills | Stealth +2",
-      "property | Senses | blindsight 30 ft., passive Perception 9",
-      "rule",
-      "description | Amphibious | Can breathe air and water.",
-      "section | Actions",
-      "description | Claw | <i>Melee Weapon Attack:</i> +0 to hit, reach 5 ft., one target. <i>Hit:</i> 1 bludgeoning damage."
-    ],
-    "tags": [
-      "creature",
-      "MM",
-      "beast",
-      "CR 0",
-      "Tiny"
-    ]
-  },
-  {
-    "count": 1,
-    "color": "#008000",
-    "title": "Octopus",
-    "icon": "imp-laugh",
-    "icon_back": "imp-laugh",
-    "contents": [
-      "subtitle | Small beast, unaligned",
-      "rule",
-      "property | Speed | 5 ft., swim 30 ft.",
-      "property | Skills | Perception +2, Stealth +4",
-      "property | Senses | darkvision 30 ft., passive Perception 12",
-      "rule",
-      "description | Hold Breath | Out of water, the octopus can hold its breath for 30 minutes.",
-      "description | Underwater Camouflage | Advantage on Dexterity (Stealth) underwater.",
-      "section | Actions",
-      "description | Ink Cloud (Recharges after a Short or Long Rest) | Expel a 5-foot-radius cloud of ink, if underwater. Area is heavily obscured for 1 minute, a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action."
-    ],
-    "tags": [
-      "creature",
-      "MM",
-      "beast",
-      "CR 0",
-      "Small"
-    ]
-  },
-  {
-    "count": 1,
-    "color": "#008000",
-    "title": "Owl",
-    "icon": "imp-laugh",
-    "icon_back": "imp-laugh",
-    "contents": [
-      "subtitle | Tiny beast, unaligned",
-      "rule",
-      "property | Speed | 5 ft., fly 60 ft.",
-      "rule",
-      "property | Skills | Perception +3, Stealth +3",
-      "property | Senses | darkvision 120 ft., passive Perception 13",
-      "rule",
-      "description | Flyby | The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.",
-      "description | Keen Hearing and Sight | The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight."
-    ],
-    "tags": [
-      "creature",
-      "MM",
-      "beast",
-      "CR 0",
-      "Tiny"
-    ]
-  },
-  {
-    "count": 1,
-    "color": "#008000",
-    "title": "Spider",
-    "icon": "imp-laugh",
-    "icon_back": "imp-laugh",
-    "contents": [
-      "subtitle | Tiny beast, unaligned",
-      "rule",
-      "property | Armor class | 12",
-      "property | Speed | 20 ft., climb 20 ft.",
-      "rule",
-      "property | Skills | Stealth +4",
-      "property | Senses | darkvision 30 ft., passive Perception 10",
-      "rule",
-      "description | Spider Climb | The spider can climb difficult surfaces at will.",
-      "description | Web Sense | While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.",
-      "description | Web Walker | The spider ignores movement restrictions caused by webbing."
-    ],
-    "tags": [
-      "creature",
-      "MM",
-      "beast",
-      "CR 0",
-      "Tiny"
-    ]
-  },
-  {
-    "count": 1,
     "color": "Green",
     "title": "Calligraphy Wyrm",
     "icon": "dragon-spiral",
@@ -393,7 +260,7 @@
     "contents": [
       "subtitle | Astrid ( Familiar )",
       "rule",
-      "property | Armor class | 12",
+      "property | Armor Class | 12",
       "property | Speed | 20 ft., climb 20 ft.",
       "dndstats | 4 | 14 | 6 | 10 | 10 | 6",
       "rule",
@@ -426,11 +293,12 @@
       "property | Components | V, S, M (a pearl worth 150 gp)",
       "rule",
       "text | You touch one object weighing no more than 25 pounds.",
-      "text | Non-magical: You can ask one of the following questions about the object: last three people to own it, place of origin, face of last user, intended purpose, age, date of last use, what it was last used for. After each question, roll DC 15 Wisdom saving throw. A failed save prevents further questions for 24 hours.",
+      "text | Non-magical: See: <b>Psychometry ( Questions )</b> card.",
       "text | Magical: As <b>Identify</b>."
     ],
     "tags": [
       "spell",
+      "phb",
       "1st level",
       "illusion"
     ]
@@ -453,6 +321,7 @@
     ],
     "tags": [
       "spell",
+      "phb",
       "1st level",
       "illusion"
     ]
@@ -489,14 +358,16 @@
     "contents": [
       "dndstats | 10 | 15 | 14 | 15 | 14 | 10",
       "rule",
-      "property | Speed | 40 ft.",
-      "property | Senses | darkvision 30 ft., passive Perception 11",
+      "property | Speed | 30 ft.",
+      "property | Unarmored Movement | +10 ft.",
+      "property | Senses | darkvision 30 ft.",
       "property | Languages | Common, Draconic, Abyssal, Celestial, Thieves' Cant",
       "rule",
       "property | Initiative | +2",
+      "property | Sneak Attack | 2d6",
       "property | Passive Perception | 12",
-      "property | Spell Save DC | 10 + <b>Proficiency</b> + <b>Int</b>",
-      "property | Spell Attack Mod | <b>Proficiency</b> + <b>Int</b>",
+      "property | Spell Save DC | = 10 + <b>Proficiency</b> + <b>Int</b>",
+      "property | Spell Attack Mod | = <b>Proficiency</b> + <b>Int</b>",
       ""
     ],
     "tags": [
@@ -522,6 +393,7 @@
     ],
     "tags": [
       "spell",
+      "phb",
       "cantrips",
       "transmutation",
       "trickster"
@@ -619,6 +491,63 @@
     ],
     "tags": [
       "equipment"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "FireBrick",
+    "title": "Cartogpher's Kit",
+    "icon": "trade",
+    "contents": [
+      "description | Arcana, History, Religion | You might spot hidden messages in a map, identify when the map was made to determine if geographical features have changed since then, and so forth.",
+      "description | Nature | Your familiarity with physical geography makes it easier for you to answer questions or solve issues relating to the terrain around you.",
+      "description | Survival | Your understanding of geography makes it easier to find paths to civilization, to predict areas where villages or towns might be found, and to avoid becoming lost.",
+      "description | Craft a Map | While traveling, you can draw a map as you go in addition to engaging in other activity."
+    ],
+    "tags": [
+      "equipment"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "DarkBlue",
+    "title": "Psychometry (Questions)",
+    "icon": "magic-swirl",
+    "icon_back": "magic-swirl",
+    "contents": [
+      "text | After each question, roll <b>DC 15 Wisdom</b> saving throw. A failed save prevents further questions for 24 hours.",
+      "rule",
+      "bullet | The last three people to own the object",
+      "bullet | The object's place of origin",
+      "bullet | The face of the last user",
+      "bullet | The object's intended purpose",
+      "bullet | The object's age",
+      "bullet | The object's date of last use",
+      "bullet | What the object was last used for"
+    ],
+    "tags": [
+      "spell",
+      "phb",
+      "1st level",
+      "illusion"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "DarkBlue",
+    "title": "Prestidigitation (Cont.)",
+    "icon": "magic-swirl",
+    "icon_back": "magic-swirl",
+    "contents": [
+      "bullet | Over 1 minute, you may sort, gather, or count discrete, specific objects or types of objects within a 5' cube. The total weight of all such objects cannot exceed 1 pound.",
+      "bullet | You may change one target that fits in your hand into another object in the same kingdom ( mineral, vegetable, animal ). It reverts back after one minute.",
+      "bullet | You create an umbrella of magical force. You can choose its appearance or make it invisible."
+    ],
+    "tags": [
+      "spell",
+      "PHB",
+      "Cantrips",
+      "Transmutation"
     ]
   }
 ]
