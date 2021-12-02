@@ -330,7 +330,7 @@
     "count": 1,
     "color": "indigo",
     "title": "Expertise",
-    "icon": "trade",
+    "icon": "spell-book",
     "contents": [
       "dndstats | 10 | 15 | 14 | 15 | 14 | 10",
       "rule",
@@ -347,14 +347,15 @@
       "property | Survival | +4"
     ],
     "tags": [
-      "feature"
+      "feature",
+      "reference"
     ]
   },
   {
     "count": 1,
     "color": "indigo",
     "title": "Stats Reference",
-    "icon": "trade",
+    "icon": "spell-book",
     "contents": [
       "dndstats | 10 | 15 | 14 | 15 | 14 | 10",
       "rule",
@@ -371,7 +372,8 @@
       ""
     ],
     "tags": [
-      "feature"
+      "feature",
+      "reference"
     ]
   },
   {
@@ -548,6 +550,27 @@
       "PHB",
       "Cantrips",
       "Transmutation"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "FireBrick",
+    "title": "Gear Reference",
+    "icon": "spell-book",
+    "contents": [
+      "property | Ball Bearings | Covers ten feet square, fall prone on fail",
+      "property | Block and Tackle | You can move or lift 4 times your normal weight if properly anchored",
+      "property | Caltrops | Covers one square, -10ft to failed save",
+      "property | Chalk | Temporarily mark surfaces",
+      "property | Crowbar | 5 pounds, gives advantage on <b>Strength</b> checks",
+      "property | Folding Ladder | 10 pounds, 10 foot ladder. Folds into 3'x1'x1'",
+      "property | Grappling Hook | 4 pounds, Helps ropes attach to surfaces and objects",
+      "property | Hempen Rope | 50 ft, 10 pounds",
+      "property | Piton | 1/4 pound, used to anchor into stone surfaces"
+    ],
+    "tags": [
+      "equipment",
+      "reference"
     ]
   }
 ]
