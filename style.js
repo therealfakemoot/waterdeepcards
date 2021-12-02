@@ -20,10 +20,6 @@ if (card_has_tag(card, "soul knife")) {
         card.icon = "abstract-065";
 }
 
-if (card_has_tag(card, "stiletto")) {
-        card.icon = "abstract-065";
-}
-
 if (card_has_tag(card, "trickster")) {
         card.icon = "abstract-003";
 }
