@@ -157,8 +157,9 @@
     "contents": [
       "subtitle | Soul Knife ( 3rd level )",
       "rule",
-      "property | Damage | 1d8 psychic",
-      "property | Properties | Light, Finesse, Thrown (60/x)",
+      "property | Damage | 1d6 + <b>Dex</b> psychic",
+      "property | Properties | Simple, Finesse",
+      "property | Range | 60/x",
       "rule",
       "text| When you take the <b>Attack</b> action or make an <b>opportunity attack</b>, you manifest psionic energy to augment your strike. These count as weapon attacks."
     ],
@@ -573,6 +574,72 @@
       "phb",
       "tools",
       "equipment"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "DarkBlue",
+    "title": "Detect Magic",
+    "icon": "magic-swirl",
+    "icon_back": "magic-swirl",
+    "contents": [
+      "subtitle | 1st-level divination (ritual)",
+      "rule",
+      "property | Casting Time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "text | For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.",
+      "text | The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+    ],
+    "tags": [
+      "spell",
+      "PHB",
+      "1st level",
+      "Divination",
+      "concentration"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "DarkBlue",
+    "title": "Unseen Servant",
+    "icon": "magic-swirl",
+    "icon_back": "magic-swirl",
+    "contents": [
+      "subtitle | 1st-level conjuration (ritual)",
+      "rule",
+      "property | Casting Time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S, M (a piece of string and a bit of wood)",
+      "property | Duration | 1 hour",
+      "rule",
+      "text | This spell creates an invisible, mindless, shapeless, Medium force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 hit point, and a Strength of 2, and it can't attack. If it drops to 0 hit points, the spell ends."
+    ],
+    "tags": [
+      "spell",
+      "PHB",
+      "1st level",
+      "Conjuration"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "DarkBlue",
+    "title": "Unseen Servant (Cont.)",
+    "icon": "magic-swirl",
+    "icon_back": "magic-swirl",
+    "contents": [
+      "",
+      "text | As a <b>bonus action</b>, you can mentally command the servant to move up to 15 feet and interact with an object. The servant can perform simple tasks that a human servant could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring wine. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command.",
+      "text | If you command the servant to perform a task that would move it more than 60 feet away from you, the spell ends."
+    ],
+    "tags": [
+      "spell",
+      "PHB",
+      "1st level",
+      "Conjuration"
     ]
   }
 ]
