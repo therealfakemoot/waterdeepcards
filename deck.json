@@ -689,5 +689,28 @@
       "1st level",
       "illusion"
     ]
+  },
+  {
+    "count": 1,
+    "color": "indigo",
+    "title": "Action Reference",
+    "icon": "spell-book",
+    "contents": [
+      "property | Attack | Take an attack action.",
+      "property | Cast a Spell | Cast a spell.",
+      "property | Dash | Gain extra movement equal to your speed.",
+      "property | Disengage | Movement does not provoke Attacks of Opportunity.",
+      "property | Dodge | Disadvantage on attacks against you until <b>start of your next turn</b>.",
+      "property | Help | Give an ally within 5' <b>Advantage</b> on next attack.",
+      "property | Hide | Gain cover, <b>Advantage</b> on attacks.",
+      "property | Ready | Use your reaction to prepare a response to an ally or enemy's actions.",
+      "property | Search | Find stuff.",
+      "property | Use Object | Wands, potions, bags, doors, levers, etc.",
+      ""
+    ],
+    "tags": [
+      "feature",
+      "reference"
+    ]
   }
 ]
