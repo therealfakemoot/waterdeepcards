@@ -234,16 +234,18 @@
     "title": "Expendable Resources",
     "icon": "spell-book",
     "contents": [
+      "section | Hit Dice: d10 ( Long )",
+      "boxes | 20 | 1.5",
       "section | Ki Points ( Short )",
-      "boxes | 24 | 2",
+      "boxes | 20 | 1.5",
       "section | Spell Slots ( Long )",
       "text | Level 1",
-      "boxes | 2 | 2",
+      "boxes | 2 | 1.5",
       "section | Innate Spells  ( Long )",
       "text | Disguise Self",
-      "boxes | 1 | 2",
+      "boxes | 1 | 1.5",
       "text | Invisibility",
-      "boxes | 1 | 2"
+      "boxes | 1 | 1.5"
     ],
     "tags": [
       "feature",
@@ -640,6 +642,50 @@
       "PHB",
       "1st level",
       "Conjuration"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "FireBrick",
+    "title": "Net",
+    "icon": "trade",
+    "icon_back": "crossed-swords",
+    "contents": [
+      "property | Thrown | 5/15 ft.",
+      "rule",
+      "description | Special | A <b>Large</b> or smaller creature hit by a net is <b>restrained</b> until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a <b>DC 10 Strength</b> check, freeing itself or another creature within its reach on a success. Dealing <b>5 slashing damage</b> to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. <b>When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.</b>"
+    ],
+    "tags": [
+      "item",
+      "phb",
+      "martial weapon",
+      "ranged weapon",
+      "equipment"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "DarkBlue",
+    "title": "Synesthete",
+    "icon": "magic-swirl",
+    "icon_back": "magic-swirl",
+    "contents": [
+      "subtitle | 1st-level psionic",
+      "rule",
+      "property | Casting Time | 1 action",
+      "property | Range | Self",
+      "property | Components | S, M (a dried mushroom stalk)",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "text | When you cast this spell, you can choose to hear light or see sound. The spell does not alter your senses otherwise.",
+      "text | You gain advantage on Perception (Wisdom) checks made involving sight or sound when that sense is active and the respective sense is not impaired. You can also use these senses if you are deafened or blinded, though you gain no bonuses for using the power in this way.",
+      ""
+    ],
+    "tags": [
+      "spell",
+      "",
+      "1st level",
+      "illusion"
     ]
   }
 ]
