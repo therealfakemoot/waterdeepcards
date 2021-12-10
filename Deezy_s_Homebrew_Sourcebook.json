@@ -1,0 +1,1076 @@
+{
+	"siteVersion": "1.141.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "DeezysHomebrewSourcebook",
+				"abbreviation": "DHSB",
+				"full": "Deezy's Homebrew Sourcebook",
+				"url": "",
+				"authors": [
+					"Deezy"
+				],
+				"convertedBy": [
+					"Deezy"
+				]
+			}
+		],
+		"dateAdded": 1636377161,
+		"dateLastModified": 1636377161
+	},
+	"spell": [
+		{
+			"name": "Blood Reading",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "at least 1 ounce of a creature's blood",
+					"consumed": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You weave dark magic to pull information out of at least one ounce of blood ( or around 30 grams )which the spell consumes as a material component. This blood must have come from a creature that is alive or has been dead for less than one hour, and the spell fails without enough blood to use. Choose two of the following options below each time you cast the spell to determine what information about the creature you learn from its blood:",
+				{
+					"type": "list",
+					"items": [
+						"You learn the creature's type and its maximum hit points. You also learn all its resistances, vulnerabilities, and immunities.",
+						"You learn the direction to the creature and you learn if it is within 1 mile, within 100 miles, or beyond that ( which also includes other planes of existence).",
+						"You learn the identify of any poisons, diseases, curses, and blessings that are affecting the creature. Successful knowledge checks may also grant you insight into the nature and function of these conditions.",
+						"You learn if the creature's blood contains any special magic, such as the healing properties of a unicorn's blood or the ritual magic uses for some kinds of fiends' blood.",
+						"If the blood is mixed with the blood of another creature, the mixture will glow bright red if one of the two creatures is the parent, offspring, or sibling of the other."
+					]
+				},
+				"When you cast the spell, if the target is still alive, it feels a tingling sensation in its veins and knows the exact direction to you, though it doesn't necessarily know who you are or what you're doing."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, you can choose one additional option for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Observer Ward",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "twig, a drop of water",
+					"consumed": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You enchant a branch no bigger than your arm with divination magic, giving it full 360-Degree vision and sharing its vision with yours.",
+				"This ward emits a slight glow, and users of Arcane Sight or similar can see a thin line linking the caster and the ward.",
+				"You share your vision with this ward until the duration is over, or until it is destroyed. The ward will turn back to a normal branch if the caster is over 100 ft away.",
+				"You can only have a maximum of 2 wards active at the same time. If you create a new ward while 2 are active, the first ward will turn back to normal."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Card Capture",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "paper card treated with crystalline powder worth 2gp",
+					"cost": 200
+				}
+			},
+			"duration": [
+				{
+					"type": "special"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You can touch an inanimate, unattended object weighing 5 lbs or less while casting this spell. If the item could reasonably be considered a 'bundle' and otherwise follows the rules of this spell, the bundle can also be targeted. Once the spell is cast the touched item is stored in an extra-dimensional space tied to the card material component. A physical representation of the stored object appears on the blank face of the card. During the casting of the spell the caster may set an activation word or phrase, which can be learned through the identify spell or similar means.",
+				"Items stored do not experience the passage of time. If the card is destroyed or activated the item appears in an adjacent square or the card user's free hand if activated. If the card has an activation phrase, destroying the card also destroys the stored item. Once destroyed or activated the card component of the spell is consumed."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the item stored can be 5 lbs heavier for each slot level above 1st. The item stored can be 10 lbs heavier for slot levels 3rd and higher, and 50 lbs heavier for slot levels 7th and higher (200 lbs total if a 9th level slot is used)."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Blackout",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 1,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small glass marble"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Until the spell ends, nonmagical sources of light are suppressed while you are within 20 feet of them, causing them to generate no light. This spell does not block light that originates from sources outside the range of its effect."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd or higher, the range of the effect increases by 10 feet for each slot level above 1st. At 2nd level, light created by a cantrip-level spell is also suppressed. At 3rd level, lights created by first level spells are suppressed, etc."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Katrine's Total Tent",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of oilcloth, a pinch of dirt"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"You produce a 5-foot-radius immobile dome of opaque blueish force at a point you see within range. Up to four creatures of Medium size can fit inside the dome. The spell fails if its area includes a larger creature or more than four creatures. Creatures and objects can freely pass in and out of the dome, and the dome doesn't block spells or other magical effects. The tent blocks nonmagical weather, including rain and hail. Creatures and objects inside the dome can't be seen by creatures outside of it and effectively have total cover from creatures outside it.",
+				"Until the spell ends, you can command the interior to become dimly lit or dark. The dome is translucent but not transparent from the inside."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 2nd- or 3rd-level spell slot, you can make the tent large enough for six creatures. When you cast it using a 4th- or 5th-level spell slot, you can make the tent large enough for eight creatures. When you cast it using a 6th- or 7th-level spell slot, you can make the tent large enough for 12 creatures. When you cast it using an 8th- or 9th-level spell slot, you can make the tent large enough for 16 creatures."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Caldur's Starry Sky",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 2,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a silver mirror worth 25 gp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 3
+					}
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"This spell allows you to create an illusory planetarium, showing the current position of the stars and moon(s) as they would be seen on a cloudless night at your current location. The image appears approximately thirty feet overhead, or if indoors, projected onto the ceiling. This allows for navigation or astrological uses indoors, during the day, or on nights with heavy butt cover."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Clue",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a magnifying glass"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"When you cast this spell, all footprints and fingerprints within range become highlighted and glow faintly for the duration. At the time of casting, choose any period of time up to the last 10 days to the present; only footprints and fingerprints left within that time will be highlighted. Each creature whose footprints or fingerprints are detected by the spell is assigned a unique color, but are not otherwise identified. Any creature that moves or touches objects in the area will also leave colorful footprints and fingerprints, which might reveal {@condition invisible} creatures in the area."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Amanuensis",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "any kind of blank paper",
+					"consumed": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You choose any nonmagical writing you can see within range and it is magically copied onto blank paper you are holding. This spell copies 250 words per minute and creates a perfect duplicate of the original. It does not translate the text or make it clearer.",
+				"Illustrations or magical writings (such as the text of a spellbook, a spell scroll, or a glyph of warding) are not copied at all by this spell. If the original text contains both normal writing and magical writing or illustrations (such as a letter with a glyph of warding or a drawing in one corner), only the normal text is copied.",
+				"You must provide blank paper in some form for the spell to copy the text onto. If a blank sheet is filled with copied text, you must cast the spell again with a new blank sheet of paper to continue copying more text."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Blade of Nightmares",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"The next time you hit a creature with a weapon attack before this spell ends, your weapon is wreathed in dark energy that freezes your foe in terror. The attack deals an extra {@damage 1d6} psychic damage, and if the target is not immune to the {@condition frightened} condition, its speed is reduced to 0 until the end of its next turn. If the attack was an opportunity attack, the target is also {@condition frightened} until the end of its next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by {@dice 1d6} for each slot level above 1st."
+					]
+				}
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Burrowing Claws",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You grow short, thick claws. They are useless for combat, but ideal for tunneling through the earth. You gain a burrow speed equal to your walking speed."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Cleansing Touch",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a mirror"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A creature you touch is cleansed of all dirt and grime. The target regains 1 hit point, and for 1 hour the symptoms of any disease afflicting the target are suppressed. In addition, the target has advantage on any Charisma (Deception or Persuasion) checks",
+				"against non-hostile humanoids made in the next 10 minutes."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Dead End",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 1,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a pinch of odoriferous spice"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"As you finish the spell, an illusion masks the footprints and scent of creatures you choose within 30 feet of you for the duration. Any creature attempting to track the affected creatures by scent or sight must make an Intelligence (Investigation) check against your spellcasting DC. If the check fails, the creature loses the trail and has disadvantage on all further ability checks to track the affected creatures for the duration."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the duration increases by 1 hour for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Foesnare",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"m": {
+					"text": "a weapon"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects and takes an additional {@damage 1d6} force damage as links of solid eldritch energy burst from its flesh, binding its bones to the ground. The creature you hit is {@condition restrained} until the end of its next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the initial extra damage dealt by the attack increases by {@dice 1d6} for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Forceful Query",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"As a part of the action of casting this spell, you must ask a question of one creature within range that can see and hear you, or else the spell fails. The question must be phrased so that it can be answered with a yes or a no. The target must succeed on a Wisdom saving throw, or it replies with a truthful answer. A creature that is immune to being {@condition charmed} or which does not share a language with you is not affected by this spell."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Secluded Grimoire",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a leather strap and an owl feather"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"This spell sends a book into an extradimensional space, where it remains safely tucked away indefinitely. When you cast this spell, the target unattended book you touch dissolves into quickly fading lines of energy and runes that reflect all of the information stored within. As an action you can retrieve any single book pocketed with this spell, causing it to reappear in your hands or in an unoccupied space within 5 feet of you.",
+				"You can store up to 5 books in this way. No other creatures or objects accompany the books you send away. If you cast this spell to store a 6th book, a random book from those already stored is replaced by it and the previously stored one appears in the nearest unoccupied space to you. If you die while you have books stored with this spell, all of them appear neatly stacked in your space."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Hush",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 1,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You touch a creature and imbue it with silence. For the duration, the target has advantage on Dexterity (Stealth) checks to avoid detection while moving."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher you can target one additional creature for each spell slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Psychometry",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "special"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You touch a non-magical object weighing no more than 25 pounds and reach into it with your psychic power, allowing you to view glimpses of events that the object was directly involved in. When you cast this spell, you can learn one of the following facts about the object:",
+				{
+					"type": "list",
+					"items": [
+						"The identity of the last three people to own or otherwise possess the object",
+						"The object's place of origin",
+						"The face of the last person to use the object",
+						"The object's intended purpose",
+						"The object's age",
+						"The date of the object's last use",
+						"What the object was last used for"
+					]
+				},
+				"After each use of psychometry on an object, make a DC 15 Wisdom saving throw. On a successful save, you can choose another fact from the list if you maintain contact with the object. On a failed save, you can not glean any more information from the object for 24 hours."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Ebrohim's Inquiry Lingum",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cube",
+				"distance": {
+					"type": "feet",
+					"amount": 20
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a glass lens ground to perfection, laid atop a sheet of paper, a drop of ink"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"With this spell a caster may intone a word or phrase onto a sheet of paper and find all references to that word or phrase on any surface within a 10 foot cube. The surface upon which the phrase or word is written will be known to the caster and the sheet below the intoned phrase will be filled in with a written copy of the title or description of the containing document and a brief summary of the context in which it is found, this will generally be able to show 10 results before the page is full, but larger pages can be used to include up to 20 results at level 1."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Awaken Mind",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a drop of fish oil"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You enhance a creature's mind, allowing it to communicate telepathically. For the duration, the affected creature can communicate telepathically with creatures up to a range of 60 feet that it can see. Other creatures can understand respond only if they share at least one language or have telepathic abilities of their own."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd or 4th level, the maximum duration increases to 1 hour. When cast with a spell slot of 5th level or higher, the maximum duration increases to 8 hours."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Chameleon",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 1,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a lizard scale or tail"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You magically blend in with your surroundings. So long as you are motionless, you have advantage on Dexterity (Stealth) checks, and attack rolls against you have disadvantage."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Awaken Mind (1)",
+			"source": "DeezysHomebrewSourcebook",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a drop of fish oil"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You enhance a creature's mind, allowing it to communicate telepathically. For the duration, the affected creature can communicate telepathically with creatures up to a range of 60 feet that it can see. Other creatures can understand respond only if they share at least one language or have telepathic abilities of their own."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd or 4th level, the maximum duration increases to 1 hour. When cast with a spell slot of 5th level or higher, the maximum duration increases to 8 hours."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}
