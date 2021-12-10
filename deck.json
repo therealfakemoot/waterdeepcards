@@ -549,7 +549,9 @@
       "property | Folding Ladder | 10 pounds, 10 foot ladder. Folds into 3'x1'x1'",
       "property | Grappling Hook | 4 pounds, Helps ropes attach to surfaces and objects",
       "property | Hempen Rope | 50 ft, 10 pounds",
-      "property | Piton | 1/4 pound, used to anchor into stone surfaces"
+      "property | Piton | 1/4 pound, used to anchor into stone surfaces",
+      "property | Signal Whistle | Audible 1/2 mile awayc",
+      ""
     ],
     "tags": [
       "equipment",
